@@ -1,0 +1,369 @@
+@media only screen and (min-width: 320px) {
+
+	.wrapper-box
+	{
+		width: 100%;
+	}
+
+	.FooterBox 
+	{
+		display: none;
+	}
+	.FooterBox:nth-child(4)
+	{
+		display: initial;
+		width: 100%;
+	}
+
+	.FooterIconFlexBox i
+	{
+		font-size: 2.5rem;
+	}
+
+	.FooterIconFlexBox i:hover 
+	{
+		width: 75px;
+		height: 65px;
+	}
+
+	.NewsDigital {
+		margin: 0 10px;
+		width: 100%;
+	}
+
+	.NewsFranchise
+	{
+		order: 2;
+		width: 50%;
+	}
+	.news 
+	{
+		padding: 0 20px;
+		flex-wrap: wrap;
+	}
+
+	.wrapper-content p
+	{
+		font-size: 2vw;
+	}
+
+	.SliderMobile {
+		display: block;
+	}
+
+	.SliderMobile img {
+		display: block;
+		width: 100%;
+	}
+
+	.slider {
+		display: none;
+	}
+
+
+	.toggle-button{
+		display:flex;
+	}
+
+	.SiteLink
+	{
+		display:none;
+		width:100%;
+	}
+
+	.SiteLink
+	{
+		flex-direction:column;
+		align-items: flex-start;
+	}
+
+	.SiteLink ul 
+	{
+		width:100%;
+		flex-direction:column;
+		margin-top: -190px;
+		display: table;
+	}
+
+	.SiteLink.active
+	{
+		display:inline-block;
+	}
+
+	.SiteLink li 
+	{
+		padding: .5rem 1rem;
+		text-align:center;
+	}
+
+	.NavBarLogo 
+	{
+		width: 135px;
+	}
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+	.toggle-button{
+		display:flex;
+	}
+
+	.SiteLink
+	{
+		display:none;
+		width:100%;
+	}
+
+	.SiteLink
+	{
+		flex-direction:column;
+		align-items: flex-start;
+	}
+
+	.SiteLink ul 
+	{
+		width:100%;
+		flex-direction:column;
+		margin-top: -190px;
+		display: table;
+	}
+
+	.SiteLink.active
+	{
+		display:inline-block;
+	}
+
+
+	.SiteLink li 
+	{
+		padding: .5rem 1rem;
+		text-align:center;
+	}
+
+	.NavBarLogo 
+	{
+		width: 135px;
+	}
+
+	.wrapper-content p
+	{
+		font-size: 1vw;
+	}
+
+	.wrapper-box h2 {
+		font-size: 2vw;
+	}
+
+	.wrapper-background {
+		max-height: 200px;
+	}
+
+	.wrapper-box
+	{
+		max-height: 200px;
+	}
+
+	.NewsDigital {
+		margin: 0 10px;
+		width: 100%;
+	}
+
+	.NewsFranchise
+	{
+		order: 0;
+		width: 25%;
+	}
+	.news 
+	{
+		padding: 0 20px;
+		flex-wrap: wrap;
+	}
+
+	.FooterBox 
+	{
+		display: none;
+	}
+	.FooterBox:nth-child(4)
+	{
+		display: initial;
+		width: 100%;
+	}
+
+	.FooterIconFlexBox i
+	{
+		font-size: 2.5rem;
+	}
+
+	.FooterIconFlexBox i:hover 
+	{
+		width: 75px;
+		height: 65px;
+	}
+
+	.wrapper-box {
+		width: 49%;
+	}
+	.NewsDigital {
+		width: calc(50% - 20px);
+	}
+
+	.NewsContent
+	{
+		font-size: 1.8vw;
+	}
+
+	.NewsContent h2
+	{
+		font-size: 3vw;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+
+	.wrapper-content p
+	{
+		font-size: 1vw;
+	}
+
+	.wrapper-box h2 {
+		font-size: 2vw;
+	}
+
+	.wrapper-background {
+		max-height: 300px;
+	}
+
+	.wrapper-box
+	{
+		max-height: 300px;
+	}
+
+	.wrapper-box {
+		width: 49%;
+	}
+	.toggle-button{
+		display:flex;
+	}
+
+	.SiteLink
+	{
+		display:none;
+		width:100%;
+	}
+
+	.SiteLink
+	{
+		flex-direction:column;
+		align-items: flex-start;
+	}
+
+	.SiteLink ul 
+	{
+		width:100%;
+		flex-direction:column;
+		margin-top: -190px;
+		display: table;
+	}
+
+	.SiteLink.active
+	{
+		display:inline-block;
+	}
+
+
+	.SiteLink li 
+	{
+		padding: 0.5rem 1rem;
+		text-align:center;
+	}
+
+	.NavBarLogo {
+		width: 215px;
+	}
+	.FooterIconFlexBox i
+	{
+		font-size: 1.2rem;
+	}
+
+	.NewsFranchise {
+		width: 25%;
+		order: 0;
+	}
+	.news 
+	{
+		flex-wrap: nowrap;
+	}
+
+	.FooterBox 
+	{
+		display: flex;
+	}
+
+	.FooterBox:nth-child(4) {
+		/* display: initial; */
+		width: 25%;
+	}
+
+	.FooterIconFlexBox i:hover {
+		width: 75px;
+		height: 35px;
+	}
+
+	.wrapper-content p
+	{
+		font-size: 14px;
+	}
+
+	.toggle-button
+	{
+		display: flex;
+	}
+
+	.SliderMobile{
+		display: none;
+	}
+
+	.slider {
+		display: block;
+	}
+
+
+
+
+	.NewsContent {
+		font-size: 16px;
+	}
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 1200px){
+	.wrapper-background {
+		max-height: 300px;
+	}
+
+	.toggle-button
+	{
+		display: none;
+	}
+
+	.SiteLink {
+		width: calc(100% - 215px);
+		display: flex;
+	}
+
+	.SiteLink ul {
+		width: 100%;
+		flex-direction: row;
+		margin-top: 0px;
+		display: flex;
+	}
+
+}
